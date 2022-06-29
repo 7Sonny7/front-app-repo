@@ -75,7 +75,7 @@ jobs:
         run: |
           cd k8s-manifest-repo
           git config --global user.email "github-action@github.com"
-          git config --global user.name "github-action"
+          git config --global user.name "github-actions"
           git commit -am "Update image tag"
           git push -u origin main
 
